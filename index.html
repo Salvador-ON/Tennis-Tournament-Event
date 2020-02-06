@@ -1,18 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<link rel="stylesheet" href="style.css">
-<title>Title</title>
-</head>
-<body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather+Sans:800|Ubuntu:700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Title</title>
+</head>
+
+<body>
+  <header class="d-none d-lg-flex bg-dark justify-content-end align-items-center">
+    <i class="text-white fab fa-facebook-square px-1"></i>
+    <i class="text-white fab fa-twitter-square px-1"></i>
+    <span class=" navbar-text text-white">English</span>
+    <span class=" navbar-text text-white">My Page</span>
+    <span class="navbar-text text-white">Log Out</span>
+  </header>
+  <nav class="d-none d-lg-flex navbar navbar-light bg-light justify-content-around">
+    <a class="nav-logo" href="#">
+      <div class="d-flex align-items-center">
+        <img class="logo-m" src="media/logo-p.png" alt="logo">
+        <h2 class="text-logo">MM</h2>
+      </div>
+    </a>
+    <ul class="nav  d-flex">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Program</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tickets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sponsors</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">News</a>
+      </li>
+
+      <li class="nav-item ml-4 media-tag">
+        <a class="nav-link" href="#">Media</a>
+      </li>
+    </ul>
+
+  </nav>
+  <main>
+    <div class=" b-cont dropdown d-block d-lg-none">
+      <button class="btn btn-secondary bg-transparent shadow-none border-0" type="button" id="dropdownMenuButton"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bu fas fa-bars fa-2x"></i>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">About</a>
+        <a class="dropdown-item" href="#">Program</a>
+        <a class="dropdown-item" href="#">Tickets</a>
+        <a class="dropdown-item" href="#">Sponsors</a>
+        <a class="dropdown-item" href="#">News</a>
+        <a class="dropdown-item" href="#">Media</a>
+      </div>
+    </div>
+
+    <section class="backg-pic">
+
+      <article class="text-cont container">
+
+        <div class="row">
+          <div class="col-12">
+            <h3 class="sub-title text-left">"Greatness Championship" </h3>
+            <h1 class="title text-left">2020 GRAND MILLENIUM TOURNAMENT </h1>
+          </div>
+
+          <div class="col-12 d-flex justify-content-center justify-content-md-start ">
+            <p class="p-welc  text-white border border-white p-2 p-lg-3 text-left">You will witness an exceptional
+              generational tournament. Experience against youth. On July 25, 41,000 souls will vibrate in The 2020 GRAND
+              MILLENIUM TOURNAMENT. Be part of it!</p>
+          </div>
+
+          <div class="col-12">
+            <h3 class="date text-left">2020.10.15 (Thu) - 22 (Wed)</h3>
+            <h6 class="place text-left"> @Carls Jr Complex Park</h6>
+          </div>
+
+        </div>
+
+      </article>
+
+    </section>
+
+    <section class="events bg-danger container-fluid pt-3">
+
+      <h3 class="text-center">Events</h3>
+
+      <div class="row justify-content-center mt-4 pb-4">
+
+        <article class=" col-11 col-lg-2 bg-success article-activities pt-3 my-2 mx-lg-1">
+          <div style="margin: auto; width: 25px; height: 25px; background-color: blue;"></div>
+          <h5 class="text-center mt-2">Activities</h5>
+          <p class="text-center">Check all the activities that we hace in the week</p>
+        </article>
+
+        <article class=" col-11 col-lg-2 bg-success article-activities pt-3 my-2 mx-lg-1">
+          <div style="margin: auto; width: 25px; height: 25px; background-color: blue;"></div>
+          <h5 class="text-center mt-2">Activities</h5>
+          <p class="text-center">Check all the activities that we hace in the week</p>
+        </article>
+
+        <article class=" col-11 col-lg-2 bg-success article-activities pt-3 my-2 mx-lg-1">
+          <div style="margin: auto; width: 25px; height: 25px; background-color: blue;"></div>
+          <h5 class="text-center mt-2">Activities</h5>
+          <p class="text-center">Check all the activities that we hace in the week</p>
+        </article>
+
+        <article class=" col-11 col-lg-2 bg-success article-activities pt-3 my-2 mx-lg-1">
+          <div style="margin: auto; width: 25px; height: 25px; background-color: blue;"></div>
+          <h5 class="text-center mt-2">Activities</h5>
+          <p class="text-center">Check all the activities that we hace in the week</p>
+        </article>
+
+        <article class=" col-11 col-lg-2 bg-success article-activities pt-3 my-2 mx-lg-1">
+          <div style="margin: auto; width: 25px; height: 25px; background-color: blue;"></div>
+          <h5 class="text-center mt-2">Activities</h5>
+          <p class="text-center">Check all the activities that we hace in the week</p>
+        </article>
+      </div>
+
+      <a class="link" href="#">
+        <p class="text-center pb-4">See the whole program</p>
+      </a>
+
+
+
+
+    </section>
+
+    
+
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
