@@ -7,6 +7,13 @@ body {
   padding: 0 5px;
 }
 
+.path {
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+
 .backg-pic {
   background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgb(0, 0, 87) 30%), url("https://i1.wp.com/tennisportalen.se/wp-content/uploads/2016/01/maxresdefault-3.jpg?fit=1920%2C1080") -670px -600px no-repeat;
   width: 100%;
@@ -135,7 +142,7 @@ aside {
   height: 150px;
   margin: auto;
   text-align: center;
-  line-height: 200px;
+  line-height: 220px;
 }
 
 .y2019 {
@@ -181,16 +188,11 @@ footer {
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
     font-size: 4.5vw;
-    font-weight: bold;
-    color: #ec5242;
   }
 
   .p-welc {
     width: 95%;
     margin: 30px auto;
-    background-color: white;
-    border: #d3d3d3 3px solid;
-    color: #272a31;
   }
 
   .par-wel {
@@ -198,14 +200,10 @@ footer {
   }
 
   .date {
-    color: white;
     font-size: 1vw;
-    font-family: 'Lato', sans-serif;
   }
 
   .contact {
-    color: white;
-    font-family: 'Lato', sans-serif;
     font-size: 1.3vw;
     width: 80%;
     margin: auto;
@@ -215,5 +213,9 @@ footer {
   .bush-title,
   .last-t {
     font-size: 3vw;
+  }
+
+  .path {
+    top: 115px;
   }
 }
