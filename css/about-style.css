@@ -121,6 +121,7 @@ aside {
 .last-t {
   color: #272a31;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 7vw;
 }
 
 .bush-c {
@@ -209,5 +210,10 @@ footer {
     width: 80%;
     margin: auto;
     padding-bottom: 0;
+  }
+
+  .bush-title,
+  .last-t {
+    font-size: 3vw;
   }
 }
