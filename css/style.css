@@ -88,10 +88,7 @@ body {
 }
 
 .article-activities {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
 }
 
@@ -99,6 +96,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.exp-title {
+  color: #ec5242;
+  font-size: 5vw;
+}
+
+.exp-p {
+  font-size: 4vw;
 }
 
 .link {
@@ -125,6 +131,7 @@ body {
 
 .player-title {
   font-size: 4vw;
+  font-weight: bold;
 }
 
 .player-par {
@@ -158,6 +165,7 @@ body {
   .sub-title {
     color: #ec5242;
     font-size: 4vw;
+    min-width: 50px;
   }
 
   .p-welc {
@@ -188,5 +196,23 @@ body {
 
   .player-par {
     font-size: 1.5vw;
+  }
+
+  .article-activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+
+  .exp-title {
+    font-size: 2vw;
+  }
+
+  .exp-p {
+    font-size: 1.5vw;
+    width: 100%;
+    min-height: 92px;
   }
 }
