@@ -98,7 +98,7 @@ footer {
 
 .size,
 .color {
-  width: 95%;
+  width: 96%;
 }
 
 .cont-f1 {
@@ -133,6 +133,12 @@ footer {
 
 .sqsp {
   transform: rotate(315deg);
+}
+
+.line {
+  background-color: #ec5242;
+  width: 20px;
+  margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
