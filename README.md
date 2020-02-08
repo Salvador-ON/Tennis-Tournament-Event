@@ -4,7 +4,7 @@
 
 ## Main Page
 
-![screenshot](screenshots/about-page.png)
+![screenshot](screenshots/main-page.png)
 
 ## About Page
 
