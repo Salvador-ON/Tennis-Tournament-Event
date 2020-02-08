@@ -57,7 +57,7 @@ body {
 
 .t1-form {
   border-radius: 15px;
-  width: 80%;
+  width: 90%;
   font-size: 4vw;
   border: 1px solid rgb(199, 199, 199);
 }
@@ -73,6 +73,7 @@ body {
 .border-row {
   border: solid 1px rgb(199, 199, 199);
   font-weight: bold;
+  padding: 0;
 }
 
 .txt-form {
@@ -89,14 +90,49 @@ footer {
 }
 
 .stripe {
-  background-image: linear-gradient(135deg, #ec5242 12.50%, #ffffff 12.50%, #ffffff 25%, #000091 25%, #000091 37.50%, #fff 37.50%, #fff 50%, #ec5242 50%, #ec5242 62.50%, #ffffff 62.50%, #ffffff 75%, #000091 75%, #000091 87.50%, #fff 87.50%, #fff 100%);
+  background-image: linear-gradient(135deg, #ec5242 12.5%, #ffff 12.5%, #ffff 25%, #000091 25%, #000091 37.5%, #fff 37.5%, #fff 50%, #ec5242 50%, #ec5242 62.5%, #ffff 62.5%, #ffff 75%, #000091 75%, #000091 87.5%, #fff 87.5%, #fff 100%);
   background-size: 56.57px 56.57px;
   width: 95%;
   margin: auto;
 }
 
+.size,
+.color {
+  width: 95%;
+}
+
+.cont-f1 {
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
 .back-color {
   background-color: #f7f7f7;
+}
+
+.sbut {
+  background-color: #ec5242;
+  color: #fff;
+  padding: 5px 50px;
+  border: none;
+}
+
+.sbut:active {
+  background-color: #d34738;
+}
+
+.square {
+  width: 25px;
+  height: 25px;
+  background-color: #ec5242;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  position: relative;
+  top: -20px;
+}
+
+.sqsp {
+  transform: rotate(315deg);
 }
 
 @media only screen and (min-width: 768px) {
@@ -125,6 +161,11 @@ footer {
   }
 
   .stripe {
+    width: 75%;
+  }
+
+  .size,
+  .color {
     width: 75%;
   }
 }

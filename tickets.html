@@ -81,21 +81,21 @@
 
       <form class="mt-4" id="form-tk">
 
-        <div class="t1-form m-auto"><span class="text-danger mx-1"><i
-              class="fas fa-angle-right fa-rotate-90"></i></span>
+        <div class="t1-form m-auto"><span class="text-danger mx-1">
+            <i class="fas fa-angle-right fa-rotate-90"></i></span>
           <span class="text-danger"> Step 1</span>
           <span class="mx-3">Please Choose your ticket</span>
         </div>
 
-        <div class="stripe">
-          <div class="container my-4 w-100 p-2">
+        <div class="stripe b-4">
+          <div class="container cont-f1 w-100 p-2">
             <div class="row no-gutters back-color ">
               <div class="col-2 border-row"><span class="txt-form">Ticket</span></div>
               <div class="col-2 border-row"><span class="txt-form">1 Day</span></div>
               <div class="col-6 border-row"><span class="txt-form">Week </span></div>
               <div class="col-2 border-row"><span class="txt-form">1 Day</span></div>
             </div>
-  
+
             <div class="row no-gutters info-row">
               <div class="col-2 border-row"><span class="txt-form">Access</span></div>
               <div class="col-2 border-row"><span class="txt-form">Stadium</span></div>
@@ -103,7 +103,7 @@
               <div class="col-3 border-row"><span class="txt-form">Vip</span></div>
               <div class="col-2 border-row"><span class="txt-form">Vip</span></div>
             </div>
-  
+
             <div class="row no-gutters back-color ">
               <div class="col-2 border-row"><span class="txt-form">Adult</span></div>
               <label class="col-2 border-row price my-0"><span class="txt-form">60 USD</span><br><input type="radio"
@@ -115,7 +115,7 @@
               <label class="col-2 border-row price my-0"><span class="txt-form">90 USD</span><br><input type="radio"
                   name="choice" value="day-vip" /> </label>
             </div>
-  
+
             <div class="row no-gutters back-color ">
               <div class="col-2 border-row"><span class="txt-form">Child</span></div>
               <label class="col-2 border-row price my-0 "><span class="txt-form">30 USD</span> <br><input type="radio"
@@ -129,12 +129,94 @@
             </div>
           </div>
         </div>
-        
+
+        <div class="bg-white pt-2">
+          <div class="square"><div class="sqsp"><i class="text-white fas fa-angle-right fa-rotate-90"></i></div></div>
+
+          <h2 class="last-t pt-4">Choose t-shirt size and color</h2>
+
+          <div class="t1-form my-4 mx-auto">
+            <span class="text-danger mx-1">
+              <i class="fas fa-angle-right fa-rotate-90"></i>
+            </span>
+            <span class="text-danger"> Step 2</span>
+            <span class="mx-3">Please Choose the size and color</span>
+          </div>
+
+          <div class="my-4 container mt-4 size">
+
+            <div class="row">
+              <div class="col-12 border-row back-color ">Select your size</div>
+            </div>
+
+            <div class="row">
+
+              <div class="col-12 border-row d-flex justify-content-center align-items-center">
+                <label class="my-3 mx-2 d-flex align-items-center">
+                  <span class="mx-2 txt-form">Small</span>
+                  <input type="radio" name="size" value="small"/> 
+                </label>
+
+              <label class="my-3 mx-2 d-flex align-items-center">
+                <span class="mx-2 txt-form">Medium</span>
+                <input type="radio" name="size" value="medium"/> 
+              </label>
+
+              <label class="my-3 mx-2 d-flex align-items-center">
+                <span class="mx-2 txt-form">Large</span>
+                <input type="radio" name="size" value="large"/> 
+              </label>
+
+              <label class="my-3 mx-2 d-flex align-items-center">
+                <span class="mx-2 txt-form">X-large</span>
+                <input type="radio" name="size"
+                  value="xlarge"/> 
+                </label>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="my-4 container mt-4 color">
+
+            <div class="row">
+              <div class="col-12 border-row back-color ">Select your color</div>
+            </div>
+
+            <div class="row">
+
+              <div class="col-12 border-row d-flex justify-content-center align-items-center">
+                <label class="my-3 mx-2 d-flex align-items-center">
+                  <span class="mx-2 txt-form">Blue</span>
+                  <input type="radio" name="color" value="blue"/> 
+                </label>
+
+              <label class="my-3 mx-2 d-flex align-items-center">
+                <span class="mx-2 txt-form">Red</span>
+                <input type="radio" name="color" value="red"/> 
+              </label>
+
+              <label class="my-3 mx-2 d-flex align-items-center">
+                <span class="mx-2 txt-form">Green</span>
+                <input type="radio" name="color" value="gree"/> 
+              </label>
+
+              <label class="my-3 mx-2 d-flex align-items-center">
+                <span class="mx-2 txt-form">Grey</span>
+                <input type="radio" name="color" value="grey"/> 
+                </label>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+
 
 
       </form>
 
-      <button type="submit" form="form1" value="Submit">Submit</button>
+      <button class="sbut" type="submit" form="form-tk" value="Submit">Submit</button>
 
 
     </section>
