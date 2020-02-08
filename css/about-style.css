@@ -176,6 +176,16 @@ footer {
   margin: auto;
 }
 
+.home {
+  text-decoration: none;
+  color: white;
+}
+
+.home:hover {
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (min-width: 768px) {
   .backg-pic {
     background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgb(0, 0, 87) 50%), url("https://i1.wp.com/tennisportalen.se/wp-content/uploads/2016/01/maxresdefault-3.jpg?fit=1920%2C1080") -370px -600px no-repeat;

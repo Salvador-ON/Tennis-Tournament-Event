@@ -141,6 +141,16 @@ footer {
   margin: auto;
 }
 
+.home {
+  text-decoration: none;
+  color: black;
+}
+
+.home:hover {
+  text-decoration: none;
+  color: black;
+}
+
 @media only screen and (min-width: 768px) {
   .bu {
     color: white;
