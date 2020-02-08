@@ -88,6 +88,17 @@ footer {
   color: #fff;
 }
 
+.stripe {
+  background-image: linear-gradient(135deg, #ec5242 12.50%, #ffffff 12.50%, #ffffff 25%, #000091 25%, #000091 37.50%, #fff 37.50%, #fff 50%, #ec5242 50%, #ec5242 62.50%, #ffffff 62.50%, #ffffff 75%, #000091 75%, #000091 87.50%, #fff 87.50%, #fff 100%);
+  background-size: 56.57px 56.57px;
+  width: 95%;
+  margin: auto;
+}
+
+.back-color {
+  background-color: #f7f7f7;
+}
+
 @media only screen and (min-width: 768px) {
   .bu {
     color: white;
@@ -111,5 +122,9 @@ footer {
 
   .txt-form {
     font-size: 2vw;
+  }
+
+  .stripe {
+    width: 75%;
   }
 }
