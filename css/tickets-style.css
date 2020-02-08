@@ -1,0 +1,115 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-text {
+  font-family: 'Lato', sans-serif;
+  padding: 0 5px;
+}
+
+.path {
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.logo-m {
+  padding: 0;
+  width: 50%;
+}
+
+.nav-logo {
+  width: 150px;
+}
+
+.nav-logo:hover {
+  text-decoration: none;
+}
+
+.text-logo {
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-item > .active {
+  color: #ec5242 !important;
+}
+
+.media-tag {
+  color: #ec5242;
+  border: #ec5242 solid 4px;
+  margin-top: -4px;
+}
+
+.bu {
+  color: black;
+}
+
+.b-cont {
+  background-color: transparent;
+  position: absolute;
+}
+
+.t1-form {
+  border-radius: 15px;
+  width: 80%;
+  font-size: 4vw;
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.s-ticket {
+  background-color: #f7f7f7;
+}
+
+.info-row {
+  background-color: #fefefe;
+}
+
+.border-row {
+  border: solid 1px rgb(199, 199, 199);
+  font-weight: bold;
+}
+
+.txt-form {
+  font-size: 4vw;
+}
+
+.price {
+  color: #ec5242;
+}
+
+footer {
+  background-color: #272a31;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .bu {
+    color: white;
+  }
+
+  .title {
+    width: 90%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4.5vw;
+  }
+
+  .path {
+    top: 115px;
+  }
+
+  .t1-form {
+    width: 50%;
+    font-size: 2vw;
+  }
+
+  .txt-form {
+    font-size: 2vw;
+  }
+}
