@@ -62,7 +62,7 @@ body {
 
 .title {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 8vw;
+  font-size: 10vw;
   font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -72,11 +72,12 @@ body {
 
 .sub-title {
   color: #ec5242;
-  font-size: 4vw;
+  font-size: 6vw;
 }
 
 .p-welc {
   width: 100%;
+  font-size: 3.5vw;
 }
 
 .date {
@@ -183,6 +184,7 @@ aside {
 
   .p-welc {
     width: 80%;
+    font-size: 2vw;
   }
 
   .date {
