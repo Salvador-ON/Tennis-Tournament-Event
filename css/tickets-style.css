@@ -91,12 +91,6 @@
   transform: rotate(315deg);
 }
 
-.line {
-  background-color: #ec5242;
-  width: 20px;
-  margin: auto;
-}
-
 .home {
   text-decoration: none;
   color: black;
@@ -113,6 +107,16 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.legal-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-m {
+  width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -151,6 +155,17 @@ footer {
 
   footer {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    min-height: 180px;
+  }
+
+  .legal-cont {
+    align-items: flex-start;
+    margin-left: 40px;
+    width: 30%;
+  }
+
+  .logo-m {
+    margin: 12px 0;
   }
 }

@@ -17,10 +17,12 @@
   padding-top: 60px;
 }
 
-.title {
+.title,
+.title2 {
   width: 90%;
   margin: auto;
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
   font-size: 10vw;
   font-weight: bold;
   color: #ec5242;
@@ -36,6 +38,7 @@
 
 .par-wel {
   font-size: 3.7vw;
+  line-height: 0.8rem;
 }
 
 .contact {
@@ -125,6 +128,15 @@ aside {
   color: white;
 }
 
+.last-t-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 footer {
   background-color: #272a31;
   color: #fff;
@@ -133,13 +145,14 @@ footer {
   align-items: center;
 }
 
-.last-t-cont {
+.legal-cont {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 80%;
-  margin: auto 0;
-  padding: 0 24px;
+  align-items: center;
+}
+
+.logo-m {
+  width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -156,19 +169,28 @@ footer {
   }
 
   .title {
-    width: 90%;
+    width: 70%;
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
+  }
+
+  .title2 {
+    width: 70%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5vw;
+    margin-top: -15px;
   }
 
   .p-welc {
-    width: 95%;
+    width: 75%;
     margin: 30px auto;
   }
 
   .par-wel {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
+    line-height: 1.5rem;
   }
 
   .date {
@@ -184,7 +206,7 @@ footer {
 
   .bush-title,
   .last-t {
-    font-size: 3vw;
+    font-size: 2vw;
   }
 
   .path {
@@ -198,13 +220,8 @@ footer {
     padding: 24px 0;
   }
 
-  footer {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
   .y2018 {
-    width: 300px;
+    width: 350px;
     height: 180px;
     margin: 0 15px;
     text-align: center;
@@ -212,10 +229,26 @@ footer {
   }
 
   .y2019 {
-    width: 300px;
+    width: 350px;
     height: 180px;
     margin: 0 15px;
     text-align: center;
     line-height: 250px;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    min-height: 180px;
+  }
+
+  .legal-cont {
+    align-items: flex-start;
+    margin-left: 40px;
+    width: 30%;
+  }
+
+  .logo-m {
+    margin: 12px 0;
   }
 }

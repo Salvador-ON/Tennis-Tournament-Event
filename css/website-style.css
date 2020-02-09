@@ -69,7 +69,7 @@ body {
 .line {
   background-color: #ec5242;
   width: 40px;
-  margin: auto;
+  margin: 0 auto 8px auto;
 }
 
 .line-grey {
