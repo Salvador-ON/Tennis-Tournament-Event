@@ -1,8 +1,32 @@
-# Html-Capstone
+# About The Project
 
-> This is my HTML & CSS Capstone project of the Microverse Courses.
+This is the HTML adnd CSS capstone project the obejctive is to create a website for an event using only the conceptual design to build the site taking care of the using experience and UI design.
+
+Here is the link of the [Conceptual Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
+In my case I decide to design my website for a fantasy Tennis Exhibition Tournament
+
+## The requirements of this pŕoject are:
+
+### Design
+- the main page, with a menu link to the about page and tickets page
+- the about page
+- the tickets page
+
+### Resolution
+- mobile: up to 768px
+- desktop: from 768px
+
+### Guidelines design:
+
+- colors
+- typographies: font face, size and weight
+- layout: composition and space between elements, for the 2 given screen sizes
+
 
 ## Main Page
+
+- The landing page has the basic information of the tournament, the activities for the visitors and the players and sponsors that are going to feature the tournament.
 
 ![screenshot](screenshots/main-page.png)
 
@@ -10,16 +34,21 @@
 
 ![screenshot](screenshots/about-page.png)
 
+- The about page has the basic have some hystoric information about the tournament, the information of a funding campaign, and a recap section of the previous years.
+
 ## Tickets Page
 
 ![screenshot](screenshots/ticktes-page.png)
 
+- The ticket page has the form to buy the access ticket and to choose the size and color of a free t-shirt of the event
 
-## Built With
 
-- HTML,
-- CSS,
-- Bootstrap 4.
+## I Built This Project With
+
+- HTML
+- CSS
+- Flexbox
+- Bootstrap 4
 
 ## GitHub Repo
 
@@ -30,7 +59,6 @@
 - [Demo](https://rawcdn.githack.com/Salvador-ON/Html-Capstone/ad9c006aa37ed515fbfa5af67594bf7188726b3e/index.html)
 
 ## Author
-
 
 👤 **Salvador Olvera Nava**
 
