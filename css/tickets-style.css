@@ -5,11 +5,35 @@
   right: 20px;
 }
 
+.bu {
+  color: black !important;
+}
+
+.last-t {
+  font-size: 1rem;
+}
+
 .t1-form {
   border-radius: 15px;
-  width: 90%;
-  font-size: 4vw;
+  width: 80%;
+  font-size: 0.8rem;
   border: 1px solid rgb(199, 199, 199);
+}
+
+.subt-f {
+  font-size: 0.7rem;
+  color: #272a31;
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-t {
+  margin: 0 10px 0 0;
 }
 
 .label-cont {
@@ -19,7 +43,7 @@
 
 .field-cont {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -120,28 +144,31 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .bu {
-    color: white;
-  }
-
-  .title {
-    width: 90%;
-    margin: auto;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 4.5vw;
+  .last-t {
+    font-size: 1.3rem;
   }
 
   .path {
-    top: 115px;
+    top: 135px;
   }
 
   .t1-form {
-    width: 50%;
-    font-size: 2vw;
+    width: 35%;
+    font-size: 1rem;
+  }
+
+  .subt-f {
+    font-size: 0.9rem;
+    color: #272a31;
   }
 
   .txt-form {
-    font-size: 2vw;
+    font-size: 0.9rem;
+  }
+
+  .price > .txt-form {
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
   }
 
   .stripe {
