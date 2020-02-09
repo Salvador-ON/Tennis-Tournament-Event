@@ -52,6 +52,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-image: url("http://clipart-library.com/image_gallery2/Tennis-Ball-Free-Download-PNG.png");
+  background-size: 68px 68px;
+  background-repeat: no-repeat;
 }
 
 .exp-title {
@@ -97,6 +100,7 @@
 .pic-player {
   flex-shrink: 0;
   max-width: 100%;
+  padding-left: 25px;
 }
 
 .image-con {
@@ -253,6 +257,10 @@ footer {
 
   .exp-event {
     font-size: 2rem;
+  }
+
+  .article-players {
+    background-size: 100px 100px;
   }
 
   .sponsor-t {
