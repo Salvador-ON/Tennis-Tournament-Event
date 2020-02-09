@@ -107,7 +107,7 @@ body {
   footer {
     flex-direction: row;
     justify-content: center;
-    min-height: 180px;
+    min-height: 150px;
   }
 
   .legal-cont {
