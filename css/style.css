@@ -206,10 +206,6 @@ footer {
     min-width: 50%;
   }
 
-  .exp-title {
-    padding-top: 25px;
-  }
-
   .player-title {
     font-size: 2vw;
   }
@@ -234,6 +230,7 @@ footer {
 
   .exp-title {
     font-size: 2vw;
+    padding-top: 25px;
   }
 
   .exp-p {

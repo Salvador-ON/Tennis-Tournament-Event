@@ -10,6 +10,7 @@ body {
 .social-head {
   display: none;
   width: auto;
+  padding-right: 4vw;
 }
 
 .nav-menu {
