@@ -100,12 +100,12 @@
 }
 
 .image-con {
-  max-width: 30%;
-  min-width: 30%;
+  max-width: 38%;
+  min-width: 38%;
 }
 
 .player-title {
-  font-size: 4vw;
+  font-size: 0.8rem;
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -114,11 +114,11 @@
   color: #ec5242;
   font-style: oblique;
   margin-bottom: 10px;
-  font-size: 2.8vw;
+  font-size: 0.6rem;
 }
 
 .player-par {
-  font-size: 3vw;
+  font-size: 0.6rem;
 }
 
 .link-p {
@@ -211,8 +211,8 @@ footer {
   }
 
   .image-con {
-    max-width: 50%;
-    min-width: 50%;
+    max-width: 35%;
+    min-width: 35%;
   }
 
   .player-sec-t {
@@ -220,18 +220,18 @@ footer {
   }
 
   .player-title {
-    font-size: 2vw;
+    font-size: 1.2rem;
   }
 
   .player-par {
-    font-size: 1.5vw;
+    font-size: 0.8rem;
   }
 
   .p-rank {
     color: #ec5242;
     font-style: oblique;
     margin-bottom: 10px;
-    font-size: 1.3vw;
+    font-size: 0.8rem;
   }
 
   .article-activities {
