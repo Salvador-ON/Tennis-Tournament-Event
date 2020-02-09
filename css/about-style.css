@@ -1,12 +1,3 @@
-body {
-  font-family: 'Lato', sans-serif;
-}
-
-.navbar-text {
-  font-family: 'Lato', sans-serif;
-  padding: 0 5px;
-}
-
 .path {
   background-color: transparent;
   position: absolute;
@@ -19,47 +10,6 @@ body {
   width: 100%;
   margin: auto;
   text-align: center;
-}
-
-.logo-m {
-  padding: 0;
-  width: 50%;
-}
-
-.nav-logo {
-  width: 150px;
-}
-
-.nav-logo:hover {
-  text-decoration: none;
-}
-
-.text-logo {
-  font-family: 'Ubuntu', sans-serif;
-  color: rgb(0, 0, 0);
-}
-
-.nav-link {
-  color: black;
-}
-
-.nav-item > .active {
-  color: #ec5242 !important;
-}
-
-.media-tag {
-  color: #ec5242;
-  border: #ec5242 solid 4px;
-  margin-top: -4px;
-}
-
-.bu {
-  color: white;
-}
-
-.b-cont {
-  background-color: transparent;
-  position: absolute;
 }
 
 .text-cont {
@@ -138,21 +88,21 @@ aside {
 .y2018 {
   background: linear-gradient(rgba(236, 82, 65, 0.5) 0%, rgb(236, 82, 65, 0.5) 100%), url("https://as01.epimg.net/us/imagenes/2018/04/24/masdeporte/1524552753_260117_1524553086_noticia_normal_recorte1.jpg")   no-repeat;
   background-size: cover;
-  width: 200px;
+  width: 280px;
   height: 150px;
-  margin: auto;
   text-align: center;
   line-height: 220px;
+  margin: 12px auto;
 }
 
 .y2019 {
   background: linear-gradient(rgba(236, 82, 65, 0.5) 0%, rgb(236, 82, 65, 0.5) 100%), url("https://www.tennisnet.com/fileadmin/_processed_/8/d/csm_relief_105304f7f6.jpg")   no-repeat;
   background-size: cover;
-  width: 200px;
+  width: 280px;
   height: 150px;
-  margin: auto;
   text-align: center;
-  line-height: 200px;
+  line-height: 220px;
+  margin: 12px auto;
 }
 
 .link-pt {
@@ -165,17 +115,6 @@ aside {
   color: #fff;
 }
 
-footer {
-  background-color: #272a31;
-  color: #fff;
-}
-
-.line {
-  background-color: #ec5242;
-  width: 20px;
-  margin: auto;
-}
-
 .home {
   text-decoration: none;
   color: white;
@@ -184,6 +123,23 @@ footer {
 .home:hover {
   text-decoration: none;
   color: white;
+}
+
+footer {
+  background-color: #272a31;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.last-t-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto 0;
+  padding: 0 24px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -233,5 +189,33 @@ footer {
 
   .path {
     top: 115px;
+  }
+
+  .last-t-cont {
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .y2018 {
+    width: 300px;
+    height: 180px;
+    margin: 0 15px;
+    text-align: center;
+    line-height: 250px;
+  }
+
+  .y2019 {
+    width: 300px;
+    height: 180px;
+    margin: 0 15px;
+    text-align: center;
+    line-height: 250px;
   }
 }

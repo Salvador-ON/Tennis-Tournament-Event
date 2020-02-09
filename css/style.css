@@ -1,58 +1,8 @@
-body {
-  font-family: 'Lato', sans-serif;
-}
-
-.navbar-text {
-  font-family: 'Lato', sans-serif;
-  padding: 0 5px;
-}
-
 .backg-pic {
   background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgb(0, 0, 87) 30%), url("https://i1.wp.com/tennisportalen.se/wp-content/uploads/2016/01/maxresdefault-3.jpg?fit=1920%2C1080") -670px -600px no-repeat;
   width: 100%;
   margin: auto;
   text-align: center;
-}
-
-.logo-m {
-  padding: 0;
-  width: 50%;
-}
-
-.nav-logo {
-  width: 150px;
-}
-
-.nav-logo:hover {
-  text-decoration: none;
-}
-
-.text-logo {
-  font-family: 'Ubuntu', sans-serif;
-  color: rgb(0, 0, 0);
-}
-
-.nav-link {
-  color: black;
-}
-
-.nav-item > .active {
-  color: #ec5242 !important;
-}
-
-.media-tag {
-  color: #ec5242;
-  border: #ec5242 solid 4px;
-  margin-top: -4px;
-}
-
-.bu {
-  color: white;
-}
-
-.b-cont {
-  background-color: transparent;
-  position: absolute;
 }
 
 .text-cont {
@@ -117,6 +67,13 @@ body {
   color: #000;
 }
 
+.act-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
 .events {
   background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgb(0, 0, 0, 0.1) 100%), url("https://blog.ticketcity.com/wp-content/uploads/2018/08/National-Tennis-Center.jpg") no-repeat center;
   width: 100%;
@@ -138,6 +95,14 @@ body {
 .player-title {
   font-size: 4vw;
   font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.p-rank {
+  color: #ec5242;
+  font-style: oblique;
+  margin-bottom: 10px;
+  font-size: 2.8vw;
 }
 
 .player-par {
@@ -146,10 +111,17 @@ body {
 
 .link-p:hover {
   color: #fff;
+  text-decoration: underline;
 }
 
 aside {
   background-color: #272a31;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -212,10 +184,16 @@ aside {
     font-size: 1.5vw;
   }
 
+  .p-rank {
+    color: #ec5242;
+    font-style: oblique;
+    margin-bottom: 10px;
+    font-size: 1.3vw;
+  }
+
   .article-activities {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
   }
@@ -228,5 +206,10 @@ aside {
     font-size: 1.5vw;
     width: 100%;
     min-height: 92px;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
