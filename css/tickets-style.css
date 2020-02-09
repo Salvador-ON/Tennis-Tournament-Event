@@ -152,20 +152,4 @@ footer {
   .color {
     width: 75%;
   }
-
-  footer {
-    flex-direction: row;
-    justify-content: center;
-    min-height: 180px;
-  }
-
-  .legal-cont {
-    align-items: flex-start;
-    margin-left: 40px;
-    width: 30%;
-  }
-
-  .logo-m {
-    margin: 12px 0;
-  }
 }

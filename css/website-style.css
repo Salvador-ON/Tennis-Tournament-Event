@@ -80,6 +80,16 @@ body {
   margin-bottom: 10px;
 }
 
+.legal-p {
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+
+.legal-p1 {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
 @media only screen and (min-width: 768px) {
   .social-head {
     display: flex;
@@ -91,5 +101,21 @@ body {
   .nav-menu {
     display: flex;
     justify-content: space-around;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    min-height: 180px;
+  }
+
+  .legal-cont {
+    align-items: flex-start;
+    margin-left: 40px;
+    width: 30%;
+  }
+
+  .logo-m {
+    margin: 12px 0;
   }
 }

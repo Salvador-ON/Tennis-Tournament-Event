@@ -109,6 +109,13 @@
   font-size: 3vw;
 }
 
+.link-p {
+  display: block;
+  color: #fff;
+  text-decoration: underline;
+  padding-bottom: 45px;
+}
+
 .link-p:hover {
   color: #fff;
   text-decoration: underline;
@@ -116,12 +123,34 @@
 
 aside {
   background-color: #272a31;
+  padding: 24px 0;
+}
+
+.sponsors-md {
+  display: none;
+}
+
+.sponsors-sm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.legal-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-m {
+  width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -134,13 +163,13 @@ footer {
 
   .text-cont {
     width: 80%;
-    padding-top: 105px;
+    padding-top: 35px;
   }
 
   .title {
     width: 80%;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 8vw;
+    font-size: 5.8vw;
     font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -150,30 +179,35 @@ footer {
 
   .sub-title {
     color: #ec5242;
-    font-size: 4vw;
+    font-size: 2.5vw;
     min-width: 50px;
   }
 
   .p-welc {
-    width: 80%;
-    font-size: 2vw;
+    width: 51%;
+    font-size: 0.9vw;
   }
 
   .date {
     color: white;
+    margin-top: 10px;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 5vw;
+    font-size: 2.5vw;
   }
 
   .place {
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2vw;
+    font-size: 1vw;
   }
 
   .image-con {
     max-width: 50%;
     min-width: 50%;
+  }
+
+  .exp-title {
+    padding-top: 25px;
   }
 
   .player-title {
@@ -208,8 +242,14 @@ footer {
     min-height: 92px;
   }
 
-  footer {
+  .sponsors-md {
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sponsors-sm {
+    display: none;
   }
 }
