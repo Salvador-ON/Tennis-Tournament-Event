@@ -8,11 +8,11 @@ In my case I decide to design my website for a fantasy Tennis Exhibition Tournam
 
 ## Presenation Video
 
-[![Watch the video]](https://youtu.be/ViLa-gzLxNY)
+![Watch the video](https://youtu.be/ViLa-gzLxNY)
 
 ## Review Video 
 
-[![Watch the video]](https://youtu.be/3-EfLdOKx98)
+![Watch the video](https://youtu.be/3-EfLdOKx98)
 
 ## The requirements of this pŕoject are:
 
@@ -64,7 +64,7 @@ In my case I decide to design my website for a fantasy Tennis Exhibition Tournam
 
 ## Live Demo
 
-- [Demo](https://rawcdn.githack.com/Salvador-ON/Html-Capstone/ad9c006aa37ed515fbfa5af67594bf7188726b3e/index.html)
+- [Demo](https://rawcdn.githack.com/Salvador-ON/Html-Capstone/7bc00eaf24a9bfc5291bae1a269fe77b398e1965/index.html)
 
 ## Author
 
