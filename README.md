@@ -8,11 +8,11 @@ In my case I decide to design my website for a fantasy Tennis Exhibition Tournam
 
 ## Presenation Video
 
-![Watch the video](https://youtu.be/ViLa-gzLxNY)
+[Watch the video](https://youtu.be/ViLa-gzLxNY)
 
 ## Review Video 
 
-![Watch the video](https://youtu.be/3-EfLdOKx98)
+[Watch the video](https://youtu.be/3-EfLdOKx98)
 
 ## The requirements of this pŕoject are:
 
