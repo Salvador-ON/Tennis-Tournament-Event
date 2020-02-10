@@ -1,0 +1,182 @@
+.path {
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.bu {
+  color: black !important;
+}
+
+.last-t {
+  font-size: 1rem;
+}
+
+.t1-form {
+  border-radius: 15px;
+  width: 80%;
+  font-size: 0.8rem;
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.subt-f {
+  font-size: 0.7rem;
+  color: #272a31;
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-t {
+  margin: 0 10px 0 0;
+}
+
+.label-cont {
+  display: flex;
+  align-items: center;
+}
+
+.field-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.s-ticket {
+  background-color: #f7f7f7;
+}
+
+.info-row {
+  background-color: #fefefe;
+}
+
+.border-row {
+  border: solid 1px rgb(199, 199, 199);
+  font-weight: bold;
+  padding: 0;
+}
+
+.txt-form {
+  font-size: 4vw;
+}
+
+.price {
+  color: #ec5242;
+}
+
+.stripe {
+  background-image: linear-gradient(135deg, #ec5242 12.5%, #ffff 12.5%, #ffff 25%, #000091 25%, #000091 37.5%, #fff 37.5%, #fff 50%, #ec5242 50%, #ec5242 62.5%, #ffff 62.5%, #ffff 75%, #000091 75%, #000091 87.5%, #fff 87.5%, #fff 100%);
+  background-size: 56.57px 56.57px;
+  width: 95%;
+  margin: auto;
+}
+
+.size,
+.color {
+  width: 96%;
+}
+
+.cont-f1 {
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+.back-color {
+  background-color: #f7f7f7;
+}
+
+.sbut {
+  background-color: #ec5242;
+  color: #fff;
+  padding: 5px 50px;
+  border: none;
+}
+
+.sbut:active {
+  background-color: #d34738;
+}
+
+.square {
+  width: 25px;
+  height: 25px;
+  background-color: #ec5242;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  position: relative;
+  top: -20px;
+}
+
+.sqsp {
+  transform: rotate(315deg);
+}
+
+.home {
+  text-decoration: none;
+  color: black;
+}
+
+.home:hover {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #272a31;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legal-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-m {
+  width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .last-t {
+    font-size: 1.3rem;
+  }
+
+  .path {
+    top: 135px;
+  }
+
+  .t1-form {
+    width: 35%;
+    font-size: 1rem;
+  }
+
+  .subt-f {
+    font-size: 0.9rem;
+    color: #272a31;
+  }
+
+  .txt-form {
+    font-size: 0.9rem;
+  }
+
+  .price > .txt-form {
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+  }
+
+  .stripe {
+    width: 75%;
+  }
+
+  .size,
+  .color {
+    width: 75%;
+  }
+}

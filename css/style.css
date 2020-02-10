@@ -1,0 +1,296 @@
+.backg-pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgb(0, 0, 87) 30%), url("https://i1.wp.com/tennisportalen.se/wp-content/uploads/2016/01/maxresdefault-3.jpg?fit=1920%2C1080") -670px -600px no-repeat;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.text-cont {
+  width: 100%;
+  padding-top: 55px;
+}
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 10vw;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(https://cdn.shopify.com/s/files/1/1749/5899/articles/tennis-balls-resized_2048x.jpg?v=1560182596);
+  background-position: right;
+}
+
+.sub-title {
+  color: #ec5242;
+  font-size: 6vw;
+}
+
+.p-welc {
+  width: 100%;
+  font-size: 3.5vw;
+}
+
+.date {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vw;
+}
+
+.place {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 4vw;
+}
+
+.article-activities {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.article-players {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("http://clipart-library.com/image_gallery2/Tennis-Ball-Free-Download-PNG.png");
+  background-size: 68px 68px;
+  background-repeat: no-repeat;
+}
+
+.exp-title {
+  color: #ec5242;
+  font-size: 1rem;
+}
+
+.exp-event {
+  font-size: 1.5rem;
+}
+
+.sponsor-t {
+  font-size: 1.5rem;
+}
+
+.exp-p {
+  font-size: 4vw;
+}
+
+.link {
+  color: #000;
+}
+
+.act-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.events {
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgb(0, 0, 0, 0.1) 100%), url("https://blog.ticketcity.com/wp-content/uploads/2018/08/National-Tennis-Center.jpg") no-repeat center;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-size: cover;
+}
+
+.player-sec-t {
+  font-size: 1.5rem;
+}
+
+.pic-player {
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-left: 25px;
+}
+
+.image-con {
+  max-width: 38%;
+  min-width: 38%;
+}
+
+.player-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.p-rank {
+  color: #ec5242;
+  font-style: oblique;
+  margin-bottom: 4px !important;
+  font-size: 0.6rem;
+}
+
+.player-par {
+  font-size: 0.6rem;
+}
+
+.link-p {
+  display: none;
+}
+
+.link-t {
+  display: block;
+  color: #fff;
+  width: 250px;
+  padding: 25px 0;
+  background-color: #ec5242;
+  margin: 25px auto;
+}
+
+aside {
+  background-color: #272a31;
+  padding: 24px 0;
+}
+
+.sponsors-md {
+  display: none;
+}
+
+.sponsors-sm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legal-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-m {
+  width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .backg-pic {
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgb(0, 0, 87) 50%), url("https://i1.wp.com/tennisportalen.se/wp-content/uploads/2016/01/maxresdefault-3.jpg?fit=1920%2C1080") -370px -600px no-repeat;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .text-cont {
+    width: 80%;
+    padding-top: 35px;
+  }
+
+  .title {
+    width: 80%;
+    font-size: 5.8vw;
+    background-image: url(https://cdn.shopify.com/s/files/1/1749/5899/articles/tennis-balls-resized_2048x.jpg?v=1560182596);
+    background-position: left;
+  }
+
+  .sub-title {
+    color: #ec5242;
+    font-size: 2.5vw;
+    min-width: 50px;
+  }
+
+  .p-welc {
+    width: 51%;
+    font-size: 0.9vw;
+  }
+
+  .date {
+    color: white;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5vw;
+  }
+
+  .place {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2vw;
+  }
+
+  .image-con {
+    max-width: 35%;
+    min-width: 35%;
+  }
+
+  .player-sec-t {
+    font-size: 2rem;
+  }
+
+  .player-title {
+    font-size: 1.2rem;
+  }
+
+  .player-par {
+    font-size: 0.8rem;
+  }
+
+  .p-rank {
+    color: #ec5242;
+    font-style: oblique;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
+
+  .article-activities {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+
+  .exp-title {
+    font-size: 1.3rem;
+  }
+
+  .exp-p {
+    font-size: 1.5vw;
+    width: 100%;
+    min-height: 92px;
+  }
+
+  .exp-event {
+    font-size: 2rem;
+  }
+
+  .article-players {
+    background-size: 100px 100px;
+  }
+
+  .sponsor-t {
+    font-size: 2rem;
+  }
+
+  .link-p {
+    display: block;
+    color: #fff;
+    text-decoration: underline;
+    padding-bottom: 45px;
+  }
+
+  .link-p:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .link-t {
+    display: none;
+  }
+
+  .sponsors-md {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sponsors-sm {
+    display: none;
+  }
+}
