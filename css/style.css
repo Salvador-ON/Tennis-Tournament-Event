@@ -245,6 +245,12 @@ footer {
     color: #fff;
   }
 
+  .article-players {
+    background-image: url("http://clipart-library.com/image_gallery2/Tennis-Ball-Free-Download-PNG.png");
+    background-size: 50px 50/*  */px;
+    background-repeat: no-repeat;
+  }
+
   .exp-title {
     font-size: 1.3rem;
   }
