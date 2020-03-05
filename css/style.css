@@ -100,7 +100,6 @@
 .pic-player {
   flex-shrink: 0;
   max-width: 100%;
-  padding-left: 25px;
 }
 
 .image-con {
@@ -260,7 +259,7 @@ footer {
   }
 
   .article-players {
-    background-size: 100px 100px;
+    background-size: 25%;
   }
 
   .sponsor-t {
