@@ -50,6 +50,13 @@ In my case, I decided to design my website for a fantasy Tennis Exhibition Tourn
 
 - The ticket page has the form to buy the access ticket and to choose the size and color of a free t-shirt of the event.
 
+# Future Features
+
+- Creation of the Log-in and Sign-up system for each user.
+
+- Development of the sponsors, media, and news webpages.
+
+- Multi-language website.
 
 ## I Built This Project With
 
