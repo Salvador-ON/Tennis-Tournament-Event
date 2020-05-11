@@ -42,7 +42,7 @@ In my case, I decided to design my website for a fantasy Tennis Exhibition Tourn
 
 ![screenshot](screenshots/about-page.png)
 
-- The about page has the basic have some historic information about the tournament, the information of a funding campaign, and a recap section of the previous years.
+- The about page has the historic information about the tournament, the information of a funding campaign, and a recap section of the previous years.
 
 ## Tickets Page
 
